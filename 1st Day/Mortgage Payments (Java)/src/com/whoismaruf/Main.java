@@ -19,7 +19,6 @@ public class Main {
             principle = userInput.nextInt();
         }
 
-
         System.out.print("Annual Interest Rate: ");
         float annualInterestRate = userInput.nextFloat();
         float monthlyInterestRate = annualInterestRate/100/12;
