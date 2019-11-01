@@ -12,8 +12,13 @@ public class Main {
 
         // Input Part
 
-        System.out.print("Principle: ");
+        System.out.print("Principle (At least 10k): ");
         int principle = userInput.nextInt();
+        while (principle<10000) {
+            System.out.print("Principle (At least 10k): ");
+            principle = userInput.nextInt();
+        }
+
 
         System.out.print("Annual Interest Rate: ");
         float annualInterestRate = userInput.nextFloat();
